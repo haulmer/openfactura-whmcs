@@ -5,7 +5,7 @@ Openfactura - WHMCS
 - Documentación: [API Rest](http://docsapi-openfactura.haulmer.com/)
 - Tutorial de instalación: [Haulmer Blog - Tutorial](https://haulmer.com/docs/autoservicio-de-boletas-y-facturas-para-whmcs/)
 
-<img alt="OpenFactura-WHMCS" src="https://www.haulmer.com/docs/content/images/2019/09/FONDO3-1.png" width="600px">
+<img alt="OpenFactura-WHMCS" src="http://images.haulmer.com/_data/i/upload/2020/07/23/20200723161637-d13d0fc6-me.png" width="600px">
 
 
 OpenFactura es la solución de facturación electrónica N°1 de Chile, a través de este plugin/integración podrás disfrutar de todos sus beneficios.

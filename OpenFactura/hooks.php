@@ -8,7 +8,7 @@
 
 use WHMCS\Database\Capsule;
  
-add_hook('InvoicePaid', 1, function($vars) {
+add_hook('InvoicePaid', 2, function($vars) {
     require_once dirname( dirname( __DIR__ ) ) . DIRECTORY_SEPARATOR . 'addons' . DIRECTORY_SEPARATOR . 'OpenFactura' . DIRECTORY_SEPARATOR . 'lib'. DIRECTORY_SEPARATOR . 'function_openfactura.php';
     $adminUsername = openfactura_getAdmin()->username;
     $invoiceid = $vars['invoiceid'];
