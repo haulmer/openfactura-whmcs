@@ -1,0 +1,53 @@
+.OF-dataTable thead th.sorting {
+    background: none;
+}
+
+.OF-dataTable thead th.sorting,
+.OF-dataTable thead th.sorting_asc,
+.OF-dataTable thead th.sorting_desc {
+    padding-right: 16px !important;
+    background: none;
+    white-space: nowrap
+}
+
+.OF-dataTable thead th.sorting i {
+    display: none;
+}
+
+.OF-dataTable thead th.sorting_asc i,
+.OF-dataTable thead th.sorting_desc i {
+    display: inline-block;
+    margin-left: 2px;
+    height: 16px;
+    width: 16px;
+    vertical-align: middle;
+}
+
+.OF-dataTable thead th.sorting_asc i {
+    background: url('../img/sort_asc_arrow.svg') right center no-repeat !important;
+}
+
+.OF-dataTable thead th.sorting_desc i {
+    background: url('../img/sort_desc_arrow.svg') right center no-repeat;
+}
+
+.OF-dataTable .of-table-nowrap {
+    white-space: nowrap;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+    padding-top: 0;
+}
+
+.dataTables_wrapper .dataTables_length label {
+    margin-bottom: 0;
+}
+
+.OF-dataTable__wrapper div.dataTables_wrapper div.dataTables_length select {
+    width: 45px;
+}
+
+.OF-dataTable__wrapper .dataTables_paginate .paginate_button.previous,
+.OF-dataTable__wrapper .dataTables_paginate .paginate_button.next {
+    margin-left: 8px;
+}

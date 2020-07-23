@@ -1,0 +1,115 @@
+body .daterangepicker {
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2)
+}
+
+body .daterangepicker .calendar-table th {
+    color: rgba(0, 0, 0, .38);
+    font-size: 12px;
+}
+
+body .daterangepicker .drp-calendar.left {
+    padding: 20px 0 0 24px;
+}
+
+body .daterangepicker .drp-calendar.right {
+    padding: 20px 24px 0 0;
+}
+
+body .daterangepicker .calendar-table th,
+body .daterangepicker .calendar-table td {
+    height: 40px;
+    width: 40px;
+    min-width: 40px;
+    border-radius: 50%;
+}
+
+body .daterangepicker .drp-calendar {
+    max-width: none;
+}
+
+body .daterangepicker .calendar-table table {
+    border-collapse: separate;
+}
+
+body .daterangepicker td.start-date {
+    border-radius: 50% 0 0 50%;
+}
+
+body .daterangepicker td.start-date ~ .in-range:not(.end-date) {
+    border-radius: 0;
+}
+
+body .daterangepicker tr td.in-range {
+    border-radius: 0;
+    color: #fff;
+    background-color: #1984F6;
+}
+
+body .daterangepicker tr td.active {
+    color: #fff;
+    background-color: #1984F6;
+}
+
+body .daterangepicker td.in-range.end-date {
+    border-radius: 0 50% 50% 0;
+}
+
+body .daterangepicker td.in-range:last-of-type {
+    border-radius: 0 50% 50% 0;
+}
+
+body .daterangepicker td.available:hover {
+    color: #1984F6;
+    background-color: transparent;
+    border: 1px solid #1984F6;
+}
+
+body .daterangepicker td:last-of-type.in-range.available {
+    border-radius: 0 50% 50% 0;
+}
+
+body .daterangepicker td:last-of-type.in-range.available:last-child:not(.end-date) {
+    border-radius: 0;
+}
+
+body .daterangepicker .drp-buttons {
+    border-top: none;
+    padding: 8px 16px;
+}
+
+body .daterangepicker .drp-buttons .btn {
+    display: inline-block;
+    padding: 10px 8px;
+    border: none;
+    appearance: none;
+    cursor: pointer;
+    box-shadow: none;
+    outline: none;
+    border-radius: 4px;
+    font: 500 14px/16px circular-book, sans-serif;
+    text-transform: uppercase;
+    background-color: transparent !important;
+}
+
+body .daterangepicker .drp-buttons .btn:focus {
+    background-color: rgba(0, 0, 0, .12) !important;
+}
+
+body .daterangepicker .drp-buttons .btn:hover {
+    background-color: rgba(0, 0, 0, .04) !important;
+}
+
+body .daterangepicker .drp-buttons .btn:active {
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, .2) !important;
+}
+
+body .daterangepicker .drp-buttons .btn.btn-primary {
+    color: #1984F6;
+}
+
+body .daterangepicker .drp-buttons .btn.btn-default {
+    color: rgba(0, 0, 0, .38);
+}

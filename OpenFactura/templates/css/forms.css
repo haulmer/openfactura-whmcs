@@ -1,0 +1,66 @@
+/* START buttons */
+.of-whmcs .of-btn {
+    display: inline-block;
+    padding: 10px 8px;
+    border: none;
+    appearance: none;
+    cursor: pointer;
+    box-shadow: none;
+    outline: none;
+    border-radius: 4px;
+    font: 500 14px/16px circular-book, sans-serif;
+    background-color: transparent !important;
+}
+
+.of-btn:focus {
+    background-color: rgba(0, 0, 0, .12) !important;
+}
+
+.of-btn:hover {
+    background-color: rgba(0, 0, 0, .04) !important;
+}
+
+.of-btn:active {
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, .2) !important;
+}
+
+.of-btn-primary,
+.of-btn-primary:hover,
+.of-btn-primary:active {
+    color: #1d72e2 !important;
+}
+
+.of-btn-upcase {
+    text-transform: uppercase;
+}
+/* END buttons */
+
+
+.form-field__pure .form-field__control {
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+}
+
+.form-field__pure .form-field__input {
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.54);
+    caret-color: #1d72e2;
+}
+
+.form-field--has-error .form-field__input {
+    border-bottom-color: #d32f2f;
+}
+
+.form-field--has-error .form-field__control:after {
+    display: none;
+}
+
+.form-field__errors {
+    margin-top: 3px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #d32f2f;
+}
