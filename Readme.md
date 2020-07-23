@@ -5,7 +5,7 @@ Openfactura - WHMCS
 - Documentación: [API Rest](http://docsapi-openfactura.haulmer.com/)
 - Tutorial de instalación: [Haulmer Blog - Tutorial](https://haulmer.com/docs/autoservicio-de-boletas-y-facturas-para-whmcs/)
 
-<img alt="OpenFactura-WHMCS" src="https://www.haulmer.com/docs/content/images/2020/01/3WocommerceOF.png" width="600px">
+<img alt="OpenFactura-WHMCS" src="https://www.haulmer.com/docs/content/images/2019/09/FONDO3-1.png" width="600px">
 
 
 OpenFactura es la solución de facturación electrónica N°1 de Chile, a través de este plugin/integración podrás disfrutar de todos sus beneficios.
@@ -32,7 +32,7 @@ Todo el funcionamiento del plugin radica en el hook de WHMCS `InvoicePaid`, cuan
 
  1. Genera y realiza el envío de la información a OpenFactura para la generación del DTE.
  2. Cuando llega la respuesta desde OpenFactura, se guarda el link de autoservicio , el invoice y el cliente.
- 3. Se agrega el link del auto servicio en las notas de la invoice que realizo la accion del hook.
+ 3. Se agrega el link del auto servicio en las notas del invoice.
 
 Instalación plugin
 -------------------------------
