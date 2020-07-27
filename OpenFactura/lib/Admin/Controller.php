@@ -137,7 +137,7 @@ class Controller
                             if (!empty($current_info_contribuyente) && !$diff_info) {
                                 logModuleCall('OpenFactura', 'No changes after update', 'apikey: ' . $openfactura_config[0]->apikey . ' URL: ' . $url, $response, '');
                                 return '<div id="response-api">201</div>';
-                            } else {0
+                            } else {
                                 $active_branche = $response['direccion'];
                                 if (!empty($urlParams['active_branch'])) {
                                     $active_branche = $urlParams['active_branch'];
