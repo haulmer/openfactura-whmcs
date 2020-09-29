@@ -175,7 +175,10 @@ add_hook('InvoicePaid', 2, function($vars) {
                         ]
                     ]
                 ],
-                "service" => "SS" 
+                "service" => "SS",
+                "custom" => [
+                    "origin" => "WHMCS"
+                ] 
             ];
 
             if($openfactura_config[0]->link_logo != null){
