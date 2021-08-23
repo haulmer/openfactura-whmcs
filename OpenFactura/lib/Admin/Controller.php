@@ -637,9 +637,13 @@ class Controller
                                 }
                                 else if($value['amount'] == 0){
                                     // Create item of value 0
+                                    $nmb = substr(preg_replace("/\([^)]+\)/","",$value['description']) , 0,80);
+                                    if (empty($nmb)) {
+                                        $nmb = "Item " . $cont;
+                                    }
                                     array_push($detalle ,[
                                         "NroLinDet" => $cont,
-                                        "NmbItem" => substr(preg_replace("/\([^)]+\)/","",$value['description']) , 0,80),
+                                        "NmbItem" => $nmb,
                                         "DscItem" => substr($value['description'], 0,1000),
                                         "QtyItem" => 1,
                                         "PrcItem" => 1,
@@ -648,9 +652,13 @@ class Controller
                                 }
                 
                                 else{
+                                    $nmb = substr(preg_replace("/\([^)]+\)/","",$value['description']) , 0,80);
+                                    if (empty($nmb)) {
+                                        $nmb = "Item " . $cont;
+                                    }
                                     array_push($detalle ,[
                                         "NroLinDet" => $cont,
-                                        "NmbItem" => substr(preg_replace("/\([^)]+\)/","",$value['description']), 0,80),
+                                        "NmbItem" => $nmb,
                                         "DscItem" => substr($value['description'], 0,1000),
                                         "QtyItem" => 1,
                                         "PrcItem" => $value['amount'],
