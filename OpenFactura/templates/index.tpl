@@ -1,5 +1,5 @@
 
-<link rel="stylesheet" href="{$RootDirectory}/modules/addons/OpenFactura/templates/css/main.css" />
+<link rel="stylesheet" href="{$WEB_ROOT}/whmcs/modules/addons/OpenFactura/templates/css/main.css" />
 
 <div class="of-whmcs">
   <header>
@@ -178,6 +178,6 @@
 </div>
 
 
-<script src="{$RootDirectory}/modules/addons/OpenFactura/templates/js/main.js"></script>
+<script src="{$WEB_ROOT}/whmcs/modules/addons/OpenFactura/templates/js/main.js"></script>
 
 
