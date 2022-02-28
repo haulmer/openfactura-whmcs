@@ -1,18 +1,21 @@
-<link rel="stylesheet" href="{$RootDirectory}/modules/addons/OpenFactura/templates/css/main.css" />
-<link rel="stylesheet" href="{$RootDirectory}/modules/addons/OpenFactura/templates/css/links.css" />
-<link rel="stylesheet" href="{$RootDirectory}/modules/addons/OpenFactura/templates/css/forms.css" />
-<link rel="stylesheet" href="{$RootDirectory}/modules/addons/OpenFactura/templates/css/modal.css" />
-<link rel="stylesheet" href="{$RootDirectory}/modules/addons/OpenFactura/templates/css/tinyModal.css" />
-<link rel="stylesheet" href="{$RootDirectory}/modules/addons/OpenFactura/templates/css/snackbar.min.css" />
-<link rel="stylesheet" href="{$RootDirectory}/modules/addons/OpenFactura/templates/css/snackbar-overrides.css" />
-<link rel="stylesheet" href="{$RootDirectory}/modules/addons/OpenFactura/templates/css/data-table-overrides.css" />
-<link rel="stylesheet" href="{$RootDirectory}/modules/addons/OpenFactura/templates/css/daterangepicker-overrides.css" />
+
+<link rel="stylesheet" href="../modules/addons/OpenFactura/templates/css/main.css" />
+<link rel="stylesheet" href="../modules/addons/OpenFactura/templates/css/links.css" />
+<link rel="stylesheet" href="../modules/addons/OpenFactura/templates/css/forms.css" />
+<link rel="stylesheet" href="../modules/addons/OpenFactura/templates/css/modal.css" />
+<link rel="stylesheet" href="../modules/addons/OpenFactura/templates/css/tinyModal.css" />
+<link rel="stylesheet" href="../modules/addons/OpenFactura/templates/css/snackbar.min.css" />
+<link rel="stylesheet" href="../modules/addons/OpenFactura/templates/css/snackbar-overrides.css" />
+<link rel="stylesheet" href="../modules/addons/OpenFactura/templates/css/data-table-overrides.css" />
+<link rel="stylesheet" href="../modules/addons/OpenFactura/templates/css/daterangepicker-overrides.css" />
+<script type="text/javascript" src="../modules/addons/OpenFactura/templates/js/tinyModal.min.js"></script>
+<script type="text/javascript" src="../modules/addons/OpenFactura/templates/js/snackbar.min.js"></script>
 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
-<script type="text/javascript" src="{$RootDirectory}/modules/addons/OpenFactura/templates/js/tinyModal.min.js"></script>
-<script type="text/javascript" src="{$RootDirectory}/modules/addons/OpenFactura/templates/js/snackbar.min.js"></script>
+<script type="text/javascript" src="/js/tinyModal.min.js"></script>
+<script type="text/javascript" src="/js/snackbar.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
 
 
@@ -30,7 +33,7 @@
             </a>
             <a href="{$modulelink}&action=registration" class="button active icon">
               <i class="ico-register"></i>
-              Registro de autoservicio
+              Registro de autoservicios
             </a>
           </nav>
         </div>
@@ -129,7 +132,7 @@
     </section>
   </div>
 </div>
-<script src="{$RootDirectory}/modules/addons/OpenFactura/templates/js/main.js"></script>
+<script src="/templates/js/main.js"></script>
 
 <script>
   $(document).ready(function() {
