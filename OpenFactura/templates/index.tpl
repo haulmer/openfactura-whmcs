@@ -1,5 +1,15 @@
 
-<link rel="stylesheet" href="{$RootDirectory}/modules/addons/OpenFactura/templates/css/main.css" />
+<link rel="stylesheet" href="../modules/addons/OpenFactura/templates/css/main.css" />
+<link rel="stylesheet" href="../modules/addons/OpenFactura/templates/css/links.css" />
+<link rel="stylesheet" href="../modules/addons/OpenFactura/templates/css/forms.css" />
+<link rel="stylesheet" href="../modules/addons/OpenFactura/templates/css/modal.css" />
+<link rel="stylesheet" href="../modules/addons/OpenFactura/templates/css/tinyModal.css" />
+<link rel="stylesheet" href="../modules/addons/OpenFactura/templates/css/snackbar.min.css" />
+<link rel="stylesheet" href="../modules/addons/OpenFactura/templates/css/snackbar-overrides.css" />
+<link rel="stylesheet" href="../modules/addons/OpenFactura/templates/css/data-table-overrides.css" />
+<link rel="stylesheet" href="../modules/addons/OpenFactura/templates/css/daterangepicker-overrides.css" />
+<script type="text/javascript" src="../modules/addons/OpenFactura/templates/js/tinyModal.min.js"></script>
+<script type="text/javascript" src="../modules/addons/OpenFactura/templates/js/snackbar.min.js"></script>
 
 <div class="of-whmcs">
   <header>
@@ -178,6 +188,6 @@
 </div>
 
 
-<script src="{$RootDirectory}/modules/addons/OpenFactura/templates/js/main.js"></script>
+<script src="../modules/addons/OpenFactura/templates/js/main.js"></script>
 
 
